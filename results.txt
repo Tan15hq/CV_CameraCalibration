@@ -1,0 +1,58 @@
+Camera Calibration and Object Dimension Estimation Results
+==========================================================
+
+1. Camera Calibration Results
+-----------------------------
+
+Number of calibration images used: 25
+Chessboard pattern: 9 x 6 inner corners
+Square size: 28.6 mm
+
+Camera Intrinsic Matrix (K):
+[ 914.4210    0.0000  638.4210 ]
+[   0.0000  915.5115  363.1515 ]
+[   0.0000    0.0000    1.0000 ]
+
+Distortion Coefficients:
+k1 =  0.1208
+k2 =  0.4948
+p1 =  0.0003
+p2 = -0.0007
+k3 = -3.8663
+
+
+2. Object Measurement Experiment
+--------------------------------
+
+Object used: Orange board
+Camera-to-object distance (Z): 2.5 meters
+
+Pixel Measurements:
+Pixel width  = 84 px
+Pixel height = 209 px
+
+Computed Real-World Dimensions:
+Measured width  = 0.1837 meters
+Measured height = 0.4566 meters
+
+
+3. Ground Truth and Error Analysis
+----------------------------------
+
+Actual object dimensions:
+Actual width  = 0.177 meters
+Actual height = 0.4425 meters
+
+Percentage Error:
+Width error  = 3.8 %
+Height error = 3.2 %
+
+
+4. Remarks
+----------
+
+The estimated real-world dimensions closely match the ground truth
+measurements. The remaining error can be attributed to manual pixel
+selection, minor camera-object misalignment, and lens distortion effects.
+Overall accuracy is within acceptable limits for a smartphone-based
+camera calibration and measurement system.
